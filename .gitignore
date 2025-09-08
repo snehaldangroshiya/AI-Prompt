@@ -1,0 +1,78 @@
+# Editor and IDE files
+.vscode/
+.history/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+.atom/
+.brackets.json
+.editorconfig
+
+# Claude Code specific
+.claude/
+.claude-*
+.claude-*.json
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and configuration
+.env
+.env.local
+.env.production
+.env.staging
+config.local.*
+
+# Build and output directories
+dist/
+build/
+out/
+target/
+*.min.js
+*.min.css
+
+# Documentation build artifacts
+docs/_build/
+site/
+_site/
+
+# AI and ML model files (often large)
+*.model
+*.h5
+*.pb
+*.onnx
+*.pkl
+*.pickle
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
